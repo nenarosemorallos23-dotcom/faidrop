@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Admin Login · Faidrop</title><link rel="stylesheet" href="../css/variables.css"><link rel="stylesheet" href="../css/base.css"><link rel="stylesheet" href="../css/components.css"><link rel="stylesheet" href="../css/auth.css"></head>
+<body data-page="admin-login">
+<main class="auth-page">
+  <aside class="auth-art"><a class="auth-brand auth-brand-row" href="../index.html" aria-label="Faidrop home"><svg class="brand-cube" viewBox="0 0 40 40" aria-hidden="true"><path fill="#b0124f" d="M20 2 37 11.5v17L20 38 3 28.5v-17L20 2Zm0 4.1-11.2 6.3L20 18.7l11.2-6.3L20 6.1ZM7 16v10.2l11 6.1V22.1L7 16Zm15 16.3 11-6.1V16l-11 6.1v10.2Z"/></svg><span>Faidrop</span></a><div class="auth-promo"><span class="eyebrow">Administration</span><h1>Keep deliveries running smoothly.</h1><p>Sign in to manage the Faidrop admin profile and review rider updates.</p><div class="auth-delivery-art" aria-hidden="true">✦</div></div><small>Faidrop · Northern Samar</small></aside>
+  <section class="auth-form-side"><div class="auth-top">Customer? <a class="inline-link" href="login.html">Customer login</a></div><div class="auth-content"><span class="eyebrow">Administrator access</span><h1>Admin Login</h1><p class="auth-subtitle">Sign in to open the administration profile.</p><form class="auth-fields" id="admin-login-form" data-role-auth-form="admin" novalidate>
+    <div class="form-field"><label for="admin-email">Admin email</label><div class="input-wrap"><span class="field-icon" aria-hidden="true">✉</span><input class="input" type="email" name="email" id="admin-email" placeholder="admin@faidrop.ph" autocomplete="username" required></div><span class="form-error" aria-live="polite"></span></div>
+    <div class="form-field"><label for="admin-password">Password</label><div class="input-wrap"><span class="field-icon" aria-hidden="true">♙</span><input class="input" type="password" name="password" id="admin-password" placeholder="Enter your password" autocomplete="current-password" minlength="6" required></div><span class="form-error" aria-live="polite"></span></div>
+    <button class="button button-block" type="submit">Login as Admin</button>
+  </form><p class="auth-note">Demo sign-in: enter any valid email and a password of at least 6 characters. This prototype does not verify real accounts.</p><p class="auth-bottom">Rider? <a class="inline-link" href="rider-login.html">Rider login</a></p></div></section>
+</main><script src="../js/data.js?v=5"></script><script src="../js/app.js?v=5"></script><script src="../js/role-auth.js"></script>
+</body></html>

@@ -1,0 +1,28 @@
+:root {
+  color-scheme: light;
+  --pink-50: #fff7f9;
+  --pink-100: #ffeaf0;
+  --pink-200: #ffd6e2;
+  --pink-300: #ffc1d3;
+  --pink-400: #f3a5bd;
+  --crimson: #b0124f;
+  --crimson-dark: #870b3d;
+  --maroon: #39152a;
+  --muted: #967985;
+  --green: #23845c;
+  --green-bg: #e5f5ec;
+  --amber: #a76b12;
+  --amber-bg: #fff2d5;
+  --white: #fff;
+  --border: #f1d7e0;
+  --shadow: 0 14px 36px rgba(112, 33, 65, .09);
+  --shadow-small: 0 6px 20px rgba(112, 33, 65, .07);
+  --radius-card: 20px;
+  --radius-control: 12px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --content-width: 1160px;
+}

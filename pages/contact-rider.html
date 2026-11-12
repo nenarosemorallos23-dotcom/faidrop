@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Contact Rider · Faidrop</title><link rel="stylesheet" href="../css/variables.css"><link rel="stylesheet" href="../css/base.css"><link rel="stylesheet" href="../css/components.css"><link rel="stylesheet" href="../css/pages.css"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"></head>
+<body data-page="contact-rider"><div class="shell"><header id="site-header"></header><main class="page-main"><div class="page-container">
+  <a class="page-back" href="tracking.html"><span>‹</span> Back to tracking</a><div class="page-heading"><span class="eyebrow">Shipment FD1025</span><h1>Contact your rider</h1><p>Your courier is nearby and on the way to your delivery.</p></div>
+  <div class="grid-2"><section class="card"><div class="card-title"><h2>Courier location</h2><span class="badge badge-amber">● Live</span></div><div id="tracking-map" class="map-panel" role="application" aria-label="Map showing courier location"><div class="map-placeholder"><span><span class="map-pin">📍</span><br>Loading courier location…</span></div></div></section>
+  <aside class="card stack"><h2>Your courier</h2><a class="rider-card rider-profile-link" href="rider-profile.html"><img class="avatar rider-photo" src="../assets/marcus-rider.svg" alt="Illustrated portrait of rider Crebello Mark Niel"><span><strong>Crebello Mark Niel</strong><span class="muted rider-rating">★ 4.9 · 128 deliveries</span><span class="inline-link rider-profile-cta">View rider profile →</span></span></a><div class="divider"></div><div class="summary-line"><span>Vehicle</span><strong>Honda Click · Red</strong></div><div class="summary-line"><span>Plate number</span><strong>NC 4821</strong></div><button class="button button-block" id="call-rider" type="button">☎ Call Rider</button><small class="text-center">0966 312 7933</small><button class="button button-secondary button-block" id="open-message-dialog" type="button">✉ Message Rider</button><a class="button button-quiet button-block" href="rate-rider.html">Rate Rider</a><small>Your number is only shared with your assigned courier.</small></aside></div>
+  <dialog class="message-dialog card" id="call-rider-dialog" aria-labelledby="call-dialog-title">
+    <div class="card-title"><div><span class="eyebrow">Your courier</span><h2 id="call-dialog-title">Call Crebello Mark Niel</h2></div><button class="icon-button" id="close-call-dialog" type="button" aria-label="Close call dialog">×</button></div>
+    <p class="muted">Call the rider at <strong>0966 312 7933</strong>.</p>
+    <div class="row message-actions"><a class="button" href="tel:+639663127933">Call now</a><button class="button button-secondary" id="copy-rider-phone" type="button">Copy phone number</button></div>
+    <p class="contact-action-status" id="call-action-status" role="status" aria-live="polite"></p>
+    <small>If your browser cannot place calls, copy the number and call from your phone.</small>
+  </dialog>
+  <dialog class="message-dialog card" id="rider-message-dialog" aria-labelledby="message-dialog-title">
+    <div class="card-title"><div><span class="eyebrow">Shipment FD1025</span><h2 id="message-dialog-title">Message Crebello Mark Niel</h2></div><button class="icon-button" id="close-message-dialog" type="button" aria-label="Close message dialog">×</button></div>
+    <p class="muted">Write a message and open your SMS app to send it to Crebello.</p>
+    <form id="rider-message-form" class="stack">
+      <div class="form-field"><label for="rider-message">Your message</label><textarea class="textarea" id="rider-message" name="message" maxlength="300" required placeholder="Hi Crebello, how far away are you?"></textarea><span class="form-error" id="rider-message-error" aria-live="polite"></span></div>
+      <div class="row message-actions"><button class="button" type="submit">Open SMS app</button><button class="button button-secondary" id="copy-rider-message" type="button">Copy message</button></div>
+    </form>
+    <p class="contact-action-status" id="message-action-status" role="status" aria-live="polite"></p>
+    <small>If your SMS app does not open, copy the message and paste it into your messaging app. Your message is not sent until you confirm sending.</small>
+  </dialog>
+</div></main><footer id="site-footer" class="site-footer"></footer></div><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="../js/data.js?v=2"></script><script src="../js/app.js"></script><script src="../js/tracking.js"></script><script src="../js/rider-contact.js"></script><script src="../js/rider-profile.js"></script></body></html>

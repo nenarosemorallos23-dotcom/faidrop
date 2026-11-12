@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title description">
+  <title id="title">Illustrated portrait of Crebello Mark Niel</title>
+  <desc id="description">Friendly delivery rider wearing a crimson helmet and jacket.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe8ef"/>
+      <stop offset="1" stop-color="#f6b8cb"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c52862"/>
+      <stop offset="1" stop-color="#8f103f"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="160" fill="url(#background)"/>
+  <circle cx="160" cy="145" r="118" fill="#fff" opacity=".34"/>
+  <path d="M56 320c10-59 46-91 104-91s94 32 104 91" fill="url(#jacket)"/>
+  <path d="M125 221h70v49c-17 17-52 17-70 0z" fill="#d99170"/>
+  <path d="M91 141c0-57 29-91 72-91 48 0 71 38 71 95v28c0 52-31 86-75 86s-68-36-68-87z" fill="#9a5c43"/>
+  <path d="M80 118c2-66 37-99 91-99 49 0 80 38 80 93-20-4-38-14-52-30-25 23-68 37-119 36z" fill="#a90e49"/>
+  <path d="M77 113c36 9 99 0 131-28 15 18 29 27 48 30v18H77z" fill="#c62662"/>
+  <path d="M104 149c8-6 18-7 27-2m59 0c9-5 19-4 27 2" fill="none" stroke="#542f2a" stroke-linecap="round" stroke-width="6"/>
+  <path d="M121 177c7 5 15 5 22 0m34 0c7 5 15 5 22 0" fill="none" stroke="#382422" stroke-linecap="round" stroke-width="5"/>
+  <path d="M147 205c9 8 20 8 29 0" fill="none" stroke="#6f302b" stroke-linecap="round" stroke-width="5"/>
+  <path d="M131 250l29 18 29-18" fill="none" stroke="#ffe2eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <path d="M143 275l17 20 17-20" fill="#f3a5bd"/>
+  <path d="M63 320c9-45 30-71 68-86l29 29 30-29c37 15 59 41 68 86" fill="url(#jacket)"/>
+  <path d="M103 252l57 38 57-38" fill="none" stroke="#ec789e" stroke-linecap="round" stroke-width="5" opacity=".8"/>
+</svg>
